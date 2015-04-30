@@ -50,6 +50,17 @@ body {
   color: #fdfdfd;
 }
 
+/*
+#logo {
+    background: url('../img/AnimaltronixLogo7_tm.cropped.png') no-repeat;
+    height: 275px;    
+    width: 308px;  
+    z-index: 10;
+}
+*/
+/*  500 x .55 */
+/* 560 X .55 */
+
 .block-t {
   padding-top: 123px;
 }
@@ -669,6 +680,7 @@ body {
   background: rgba(0, 0, 0, 0.9);
 }
 
+/*
 .pattern:before {
   content: '';
   position: fixed;
@@ -688,6 +700,7 @@ body {
   top: 5px;
   background: url(../img/pattern-9.png);
 }
+*/
 
 @media (max-width: 767px) {
   .image-bg:before,
@@ -1078,6 +1091,7 @@ body {
   position: relative;
   padding: 60px 3px;
 }
+
 .border-gradient:before, .border-gradient:after {
   content: '';
   width: 3px;
@@ -1301,6 +1315,15 @@ body {
 /*---------------------------------*/
 /*-------------- App --------------*/
 /*---------------------------------*/
+
+.logo {
+    background-image: url(../img/AnimaltronixLogo7_tm.cropped.png);
+    margin: 0 auto;
+    height:  450px; 
+    width: 525px; 
+    z-index: 10;
+}
+
 .about-app {
   max-width: 800px;
   margin: 0 auto;
