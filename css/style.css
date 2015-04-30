@@ -1316,14 +1316,6 @@ body {
 /*-------------- App --------------*/
 /*---------------------------------*/
 
-.logo {
-    background-image: url(../img/AnimaltronixLogo7_tm.cropped.png);
-    margin: 0 auto;
-    height:  450px; 
-    width: 525px; 
-    z-index: 10;
-}
-
 .about-app {
   max-width: 800px;
   margin: 0 auto;
