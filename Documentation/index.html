@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>E.T. documentation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	  <link href="css/style.css" rel="stylesheet">
+	  <link href="css/scroll-x.css" rel="stylesheet">
+	</head>
+<body data-spy="scroll" data-target="#mainNav"> 
+	<!-- MENU -->
+	<nav id="mainNav" class="offMenu" role="navigation">
+	  <span id="showMenuBtn">
+	    <span class="wrap-span">
+	      <span></span>
+	      <span></span>
+	      <span></span>
+	    </span>
+	    Contents 
+	    <span class="close-cross"></span>
+	  </span>
+	  <ul id="menuScrolling" class="nav">
+	    
+	    <li class="link-menu">
+	      <a href="#introduction">Introduction</a>
+	    </li>
+
+	    <li class="link-menu">
+	      <a href="#getting-started">Getting started</a>
+	    </li>
+		<li class="link-menu">
+			<a href="#installation">Installation</a>
+		</li>
+		<li class="link-menu">
+			<a href="#files-structure">Files Structure</a>
+		</li>
+
+	    <li class="link-menu">
+	      <a href="#home-page">Stucture Of The Site</a>
+	    </li>
+
+	    <li class="link-menu">
+	      <a href="#logo">Logo</a>
+	    </li>             
+
+	    <li class="link-menu">
+	      <a href="#social-links">"Social Links"</a>
+	    </li>
+
+	    <li class="link-menu">
+	      <a href="#notify-me">Notify Me</a>
+	    </li>
+
+	    <li class="link-menu">
+	      <a href="#about">About Me</a>
+	    </li>
+	    <li class="link-menu">
+	      <a href="#m-contacts">Contacts</a>
+	    </li>   
+
+	    <li class="drop-menu-btn">
+	      <a href="#elements">Elements</a>
+	      <ul class="nav">
+	        <li><a href="#countdown">Countdown</a></li>
+			<li><a href="#subscribe-form">Subscribe Form</a></li>
+			<li><a href="#mailchimp">Mailchimp Form</a></li>
+			<li><a href="#portfolio">Block Portfolio</a></li>
+			<li><a href="#about-app">About App</a></li>
+			<li><a href="#caroufredsel">Carousel Services</a></li>
+			<li><a href="#team">Team Carousel</a></li>
+			<li><a href="#bar">Progress Bar</a></li>
+	      </ul>
+	    </li>
+	    <li class="drop-menu-btn">
+	      <a href="#backgrounds">Backgrounds</a>
+		  <ul class="nav">
+			<li><a href="#default">Default Background</a></li>
+			<li><a href="#stars">Stars Background</a></li>
+			<li><a href="#video">Video Background</a></li>
+			<li><a href="#image">Image Background</a></li>
+			<li><a href="#gliched">Glitched Background</a></li>
+			<li><a href="#overlay">Overlay Background</a></li>
+		  </ul>
+	    </li> 
+		<li class="link-menu">
+			<a href="#retina">Retina</a>
+		</li>
+		<li class="link-menu">
+      <a href="#scss">"SCSS"</a>
+    </li>
+    <li class="link-menu">
+      <a href="#css-files">"CSS Files"</a>
+    </li>
+    <li class="link-menu">
+      <a href="#js-files">"JavaScript Files"</a>
+    </li>
+	 </ul>
+	  <a href="#" id="more-btn">More...</a>
+	</nav>
+	<div id="interceptScroll"></div>
+
+	<!--  -->
+	<header class="header marginLeft">
+		<div class="main-top marginLeft">
+			<div class="container">
+				<div class="col-md-4 col-sm-4">
+					<span id="menuClickBtn" style="display:none;">
+						<span class="wrap-span">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					Contents</span>
+				</div>
+				<!--  -->
+				<div class="col-md-4 col-sm-4 col-xs-12" id="menuBtn">
+					<div class="logoBox" >
+						<div class="logo"></div>
+					</div>
+					<div id="smallMenu" class="animHide">
+						<a href="http://itembridge.com" class="smMenuLink">Itembridge</a>
+						<a href="http://support.itembridge.com/" class="smMenuLink">Help & Support</a>
+						<a href="http://themeforest.net/user/InfoStyle" class="smMenuLink">Envato Page</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="col-md-4 col-sm-4 hidden-xs">
+					<a href="http://support.itembridge.com/" class="headerLinks supportIcon">Support</a>
+					<!-- <a href="#" class="headerLinks faqIcon">Faq</a> -->
+				</div>
+				<!--  -->
+			</div>
+		</div>
+		<!--  -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="home-promo">
+						<img src="img/bg-home.jpg" alt="photo">	
+						<div class="info-theme">
+							<p>revision #1 dated 28.01.2015</p>
+								<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="94px" height="94px" viewBox="0 0 94 94" enable-background="new 0 0 94 94" xml:space="preserve">
+									<g>
+										<g>
+											<path fill="#E83D3C" d="M47.4,94.185c-25.576,0-46.385-20.808-46.385-46.385S21.824,1.414,47.4,1.414
+												c25.577,0,46.386,20.809,46.386,46.386S72.977,94.185,47.4,94.185z M47.4,6.415c-22.819,0-41.385,18.565-41.385,41.386
+												c0,22.819,18.565,41.385,41.385,41.385s41.386-18.565,41.386-41.385C88.785,24.98,70.22,6.415,47.4,6.415z"/>
+										</g>
+										<g>
+											<g>
+												<path fill="#E83D3C" d="M43.183,58.925H31.06v-25.2h12.196v3.96h-8.18v6.372h5.002l-1.132,3.78h-3.87v7.487h8.105L43.183,58.925
+													L43.183,58.925z"/>
+											</g>
+											<g>
+												<path fill="#E83D3C" d="M48.915,57.124c0,0.48-0.184,0.9-0.548,1.261c-0.365,0.359-0.805,0.54-1.314,0.54
+													c-0.487,0-0.913-0.181-1.278-0.54c-0.364-0.36-0.548-0.78-0.548-1.261c0-0.504,0.184-0.936,0.548-1.296
+													c0.365-0.359,0.791-0.54,1.278-0.54c0.511,0,0.949,0.181,1.314,0.54C48.733,56.188,48.915,56.619,48.915,57.124z"/>
+											</g>
+											<g>
+												<path fill="#E83D3C" d="M59.688,58.925H55.67V37.72h-5.258v-3.996h14.68v3.996h-5.404V58.925L59.688,58.925z"/>
+											</g>
+											<g>
+												<path fill="#E83D3C" d="M65.092,57.124c0,0.48-0.183,0.9-0.548,1.261c-0.365,0.359-0.804,0.54-1.314,0.54
+													c-0.486,0-0.912-0.181-1.277-0.54c-0.365-0.36-0.548-0.78-0.548-1.261c0-0.504,0.183-0.936,0.548-1.296
+													c0.365-0.359,0.791-0.54,1.277-0.54c0.512,0,0.949,0.181,1.314,0.54C64.91,56.188,65.092,56.619,65.092,57.124z"/>
+											</g>
+										</g>
+									</g>
+									<g>
+										<g>
+											
+												<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="410.9407" y1="-429.5965" x2="410.9407" y2="-522.3675" gradientTransform="matrix(1 0 0 1 -365.0552 522.7495)">
+												<stop  offset="0" style="stop-color:#83C179"/>
+												<stop  offset="1" style="stop-color:#75CAE4"/>
+											</linearGradient>
+											<path fill="url(#SVGID_1_)" d="M45.885,93.153C20.309,93.153-0.5,72.345-0.5,46.768S20.309,0.382,45.885,0.382
+												c25.577,0,46.386,20.809,46.386,46.386S71.462,93.153,45.885,93.153z M45.885,5.383C23.066,5.383,4.5,23.948,4.5,46.769
+												c0,22.819,18.565,41.385,41.385,41.385s41.386-18.565,41.386-41.385C87.27,23.948,68.705,5.383,45.885,5.383z"/>
+										</g>
+										<g>
+											<g>
+												
+													<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="400.6982" y1="-464.8575" x2="400.6982" y2="-490.0575" gradientTransform="matrix(1 0 0 1 -365.0552 522.7495)">
+													<stop  offset="0" style="stop-color:#83C179"/>
+													<stop  offset="1" style="stop-color:#75CAE4"/>
+												</linearGradient>
+												<path fill="url(#SVGID_2_)" d="M41.668,57.892H29.545v-25.2h12.196v3.96h-8.18v6.372h5.002l-1.132,3.78h-3.87v7.487h8.105
+													L41.668,57.892L41.668,57.892z"/>
+											</g>
+											<g>
+												
+													<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="410.6112" y1="-464.8565" x2="410.6112" y2="-468.4935" gradientTransform="matrix(1 0 0 1 -365.0552 522.7495)">
+													<stop  offset="0" style="stop-color:#83C179"/>
+													<stop  offset="1" style="stop-color:#75CAE4"/>
+												</linearGradient>
+												<path fill="url(#SVGID_3_)" d="M47.4,56.092c0,0.48-0.184,0.9-0.548,1.261c-0.365,0.359-0.805,0.54-1.314,0.54
+													c-0.487,0-0.913-0.181-1.278-0.54c-0.364-0.36-0.548-0.78-0.548-1.261c0-0.504,0.184-0.936,0.548-1.296
+													c0.365-0.359,0.791-0.54,1.278-0.54c0.511,0,0.949,0.181,1.314,0.54C47.218,55.156,47.4,55.587,47.4,56.092z"/>
+											</g>
+											<g>
+												
+													<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="421.2922" y1="-464.8575" x2="421.2922" y2="-490.0575" gradientTransform="matrix(1 0 0 1 -365.0552 522.7495)">
+													<stop  offset="0" style="stop-color:#83C179"/>
+													<stop  offset="1" style="stop-color:#75CAE4"/>
+												</linearGradient>
+												<path fill="url(#SVGID_4_)" d="M58.173,57.892h-4.018V36.688h-5.258v-3.996h14.68v3.996h-5.404L58.173,57.892L58.173,57.892z"/>
+											</g>
+											<g>
+												
+													<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="426.7887" y1="-464.8565" x2="426.7887" y2="-468.4935" gradientTransform="matrix(1 0 0 1 -365.0552 522.7495)">
+													<stop  offset="0" style="stop-color:#83C179"/>
+													<stop  offset="1" style="stop-color:#75CAE4"/>
+												</linearGradient>
+												<path fill="url(#SVGID_5_)" d="M63.577,56.092c0,0.48-0.183,0.9-0.548,1.261c-0.365,0.359-0.804,0.54-1.314,0.54
+													c-0.486,0-0.912-0.181-1.277-0.54c-0.365-0.36-0.548-0.78-0.548-1.261c0-0.504,0.183-0.936,0.548-1.296
+													c0.365-0.359,0.791-0.54,1.277-0.54c0.512,0,0.949,0.181,1.314,0.54C63.395,55.156,63.577,55.587,63.577,56.092z"/>
+											</g>
+										</g>
+									</g>
+									</svg>
+								<h6>Coming Soon website template</h6>
+									<h5>User Guide</h5>
+						</div><!-- .logo -->
+
+						<div class="home-wrap-links">
+							<p class="support-icon">Support</p>
+							<a href="http://support.itembridge.com/">Do you need support? Just click!</a>
+							
+							<a class="link-block behance" href="https://www.behance.net/itembridge">
+								Follow us on Behance
+							</a>
+
+							<a class="link-block envato" href="http://themeforest.net/user/InfoStyle">
+								Follow us on Envato
+							</a>
+
+							<a class="link-block twitter" href="https://twitter.com/Itembridge">
+								Follow us on Twitter
+							</a>	
+
+							<a class="link-block facebook" href="https://www.facebook.com/ItemBridge">
+								Follow us on Facebook
+							</a>
+
+							<a class="link-block google-pl" href="https://plus.google.com/+Itembridge/videos">
+								Follow us on Google+
+							</a>								
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- PAGE CONTENT -->
+	<div class="page marginLeft">
+		<article class="article-block" id="introduction">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Introduction</h2>
+							<p>
+							<b>E.T.</b> is a modern interactive Coming Soon page, suitable for any type of website because of its universal design. Fully responsive, it works from large desktops to mobile devices. It is packed with jQuery countdown timer, MailChimp subscription form and ajax contact form and has 2 extra sub-pages – About Us and Contacts. The template is extremely easy to use and customize. If you're looking for something trendy, that's your top choice.
+						</p>
+							<p>
+								Please do not forget to rate <b>E.T.</b> on ThemeForest. This can be done in Downloads area. Just select <b>E.T.</b> in the Download list and rate it. We really appreciate your feedback and will be grateful for your opinion.
+							</p>
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+							<div class="frame-window">
+								<img class="img-responsive" src="img/introduction/index-image1.jpg" alt="" />
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+							<div class="frame-window">
+								<img class="img-responsive" src="img/introduction/index-image2.jpg" alt="" />
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>	
+		<article class="article-block" id="getting-started">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Getting Started</h2>
+							<p>
+								This guide is targeted at people, who have <em>at least</em> basic knowledge of html markup language. Furthermore css and javascript knowledge is advised. If you do not feel yourself well with understanding these technologies you should consider finding someome to assist you.
+							</p>
+							<p>
+								This template can't be installed into any of available CMS (Wordpress, Drupal, etc.).
+							</p>
+							<p>
+							This documentation will demonstrate the custom elements used in template and help you with their customization.
+						</p>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="installation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Installation</h2>
+						<p>
+							Template installation is pretty easy. All required files are in every version so you can delete unused. Here are the required steps:
+						</p>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<ol>
+								<li>Unzip the HTML folder</li>
+								<li>Choose the desired variant</li>
+								<li>Rename it to index.html</li>
+								<li>Upload it through FTP</li>
+							</ol>
+						</div>
+					</div>						
+				</div>					
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="files-structure">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Files Structure</h2>
+						<p>
+							
+						</p>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li>/css/ - CSS styles folder</li>
+								<li>/fonts/ - webfont icons folder</li>
+								<li>/img/ - folder for images</li>
+								<li>/js/ - JavaScript files folder</li>
+								<li>/php/ - PhP files for your contact/mailchimp form
+								<li>/video/ - Video Background files folder</li>
+								<li>/scss/ - Syntactically Awesome Stylesheets files folder</li>
+								<li>index.html - main HTML file</li>
+							</ul>
+						</div>
+
+					</div>						
+				</div>					
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="home-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Stucture Of The Site</h2>
+							<p>
+								The obligatory stucture of the site:
+							</p>
+							<div class="code-wrapper">
+								<button class="copy-btn" id="copybtn-id">Copy</button>
+									<div class="code-block">
+										<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;section</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"site-content"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"fullpage"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fullpage-wrapper"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"all-section"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"Home"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"Notify me"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"About me"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"Contact"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="tag">&lt;/section&gt;</span></li></ol></pre>
+									</div>
+							</div>	
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>"Logo"</h2>
+							<p>Logo is located at the top-left side of the template. Located at header > col.</p>
+							<div class="code-wrapper">
+								<button class="copy-btn" id="copybtn-id">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"index.html"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"no-line"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"img/et.svg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"et-logo site-logo"</span><span class="tag">&gt;</span></li><li class="L2"><span class="tag">&lt;/a&gt;</span></li></ol></pre>
+								</div>
+							</div>	
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="social-links">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>"Social links"</h2>
+						<p>'Social links' block is located at the top of the page. Here is an example of the code that is used in our demo:</p>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="frame-window">
+								<img class="img-responsive" src="content/social.png" alt="image">
+							</div>
+							<div class="code-wrapper">
+								<button class="copy-btn">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-8 text-right social-icons-wrap"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"social-icons"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-twitter"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-facebook"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-instagram"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-google-plus"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-linkedin"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-pinterest"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-tumblr"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span></li><li class="L9"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L0"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"need-social"</span><span class="tag">&gt;&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"opened"</span><span class="tag">&gt;</span><span class="pln">we are social</span><span class="tag">&lt;/div&gt;&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"closes"</span><span class="tag">&gt;&lt;/div&gt;&lt;/div&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+								</div>
+							</div>	
+						</div>	
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="Copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Copyright</h2>
+						<p>Copyright is located at <code>footer</code> > <code>.copyright</code>.</p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"copyright"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  © Itembridge, 2014. </span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+								</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Tooltip</h2>
+						<p>To change the title of tooltip, you should find <code>.sections</code> and edit the data-attribute <code>data-title="Home"</code></p>
+					</div>
+					<div class="col-md-6">	
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"Home"</span><span class="tag">&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">	
+						<div class="frame-window">
+							<img class="img-responsive" src="content/tooltip.png" alt="image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="notify-me">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Notify Me</h2>
+						<!--  -->
+						<div class="block-code-screen">
+							<div class="frame-window">
+								<img class="img-responsive" src="content/notify.png" alt="image">
+							</div>
+						</div>	
+						<!--  -->
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>About Me</h2>
+						<p>'About Me' block consists of the member photo, the hit name, some text and a link. Here is the code for <em>'About'</em> block:</p>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="frame-window">
+								<img class="img-responsive" src="content/about.png" alt="image">
+							</div>
+							<div class="code-wrapper">
+								<button class="copy-btn">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"About app"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"section-content"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"section-wrap"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 text-center"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">            ...</span></li><li class="L7"><span class="pln">          </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /col-xs-12 --&gt;</span></li><li class="L8"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /row --&gt;</span><span class="pln">        </span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /container --&gt;</span><span class="pln">  </span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /section-wrap --&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /section-content --&gt;</span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+								</div>
+							</div>	
+						</div>
+						<!--  -->
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="m-contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Contacts</h2>
+						<p>A feedback form is located in this block. To make this form send messages to your email, enter it in the file php/contact.php in place of <code>$to</code> HTML code:</p>
+						<!--  -->
+						<div class="block-code-screen">
+							<div class="frame-window">
+								<img class="img-responsive" src="content/contact.png" alt="image">
+							</div>
+						<div class="code-wrapper">
+						  <button class="copy-btn" id="copyBtn7">Copy</button>
+						  <div class="code-block">
+						 		<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 text-center"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;h3&gt;</span><span class="pln">Contact</span><span class="tag">&lt;/h3&gt;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">  </span><span class="tag">&lt;hr&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-me border-gradient border-gradient-hidden-xs "</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">&nbsp;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row m0"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-sm-8 text-center"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">&nbsp;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-form border-gradient-visible-xs"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">          </span><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"contactform"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">            </span><span class="tag">&lt;div&gt;&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">required</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Name"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L4"><span class="pln">            </span><span class="tag">&lt;div&gt;&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"email"</span><span class="pln"> </span><span class="atn">required</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Email"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"email"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L5"><span class="pln">            </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-comment"</span><span class="tag">&gt;&lt;textarea</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Message"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"comment"</span><span class="tag">&gt;&lt;/textarea&gt;&lt;/div&gt;</span></li><li class="L6"><span class="pln">            </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn"</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">              </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"send"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"submit-form"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">            </span><span class="tag">&lt;/div&gt;</span></li><li class="L9"><span class="pln">          </span><span class="tag">&lt;/form&gt;</span></li><li class="L0"><span class="pln">          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-message"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-sm-4 text-left contact-info"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-street"</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">          </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-map-marker"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L8"><span class="pln">          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dashed"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">            123 Main Street city, AB 0123</span><span class="tag">&lt;br&gt;</span></li><li class="L0"><span class="pln">            345 Not Main Street city,</span><span class="tag">&lt;br&gt;</span></li><li class="L1"><span class="pln">            CD 4567</span></li><li class="L2"><span class="pln">          </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">&nbsp;</span></li><li class="L5"><span class="pln">        </span><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-tell"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">          </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-phone"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L7"><span class="pln">          012-345-6789</span><span class="tag">&lt;br&gt;</span></li><li class="L8"><span class="pln">          025-698-9658 </span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;/p&gt;</span></li><li class="L0"><span class="pln">&nbsp;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"contact-email"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">          </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-envelope-o"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L3"><span class="pln">          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"dashed"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">            myemail@example.com</span><span class="tag">&lt;br&gt;</span></li><li class="L5"><span class="pln">            heremail@sample.com</span></li><li class="L6"><span class="pln">          </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span><span class="pln">  </span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"map-canvas"</span><span class="pln"> </span><span class="atn">data-map-lon</span><span class="pun">=</span><span class="atv">"40.707476"</span><span class="pln"> </span><span class="atn">data-map-lat</span><span class="pun">=</span><span class="atv">"-74.013670"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"closed"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L4"><span class="pln">    </span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- col-xs-12 --&gt;</span></li></ol></pre>
+						  </div>
+						</div>
+						<p>To customize google map you should enter the map coordinates <code>.map-canvas</code> in the data-attributes <code>data-map-lon</code> and <code>data-map-lat</code></p>
+					</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		
+		<article class="article-block" id="elements">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Elements</h2>
+							<p>Our theme provides different html elements, which you can use in any way with any customization. </p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<ul>
+							<li><a href="#countdown">Countdown</a></li>
+							<li><a href="#subscribe-form">Subscribe Form</a></li>
+							<li><a href="#mailchimp">Mailchimp Form</a></li>
+							<li><a href="#portfolio">Block Portfolio</a></li>
+							<li><a href="#about-app">About App</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<ul>
+							<li><a href="#team">Team Carousel</a></li>
+							<li><a href="#caroufredsel">Carousel Services</a></li>
+							<li><a href="#bar">Progress Bar</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="countdown">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Countdown</h2>
+						<p>To set the date for your countdown, find <code>.glitch</code> and edit the data-attribute <code>data-time="13 march 2015 9:00:00"</code></p>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="code-wrapper">
+								<button class="copy-btn">Copy</button>
+								<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"glitch-wrap glitch"</span><span class="pln"> </span><span class="atn">data-time</span><span class="pun">=</span><span class="atv">"13 march 2015 9:00:00"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+								</div>
+							</div>
+							<div class="frame-window">
+								<img class="img-responsive" src="content/timer.png" alt="image">
+							</div>
+						</div>
+					</div>
+						
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="subscribe-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Subscribe Form</h4>
+						<p>This is a subscribe form, which collects e-mails into the file <code>emails.txt</code>. The file is located in the root folder of the theme. HTML Code:</p>
+					</div>
+
+					<div class="code-wrapper">
+						<button class="copy-btn" id="copybtn-id">Copy</button>
+						<div class="code-block">
+							<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"notyfy-me border-gradient"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;h3&gt;</span><span class="pln">NOTIFY ME</span><span class="tag">&lt;/h3&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"notyfy-decr"</span><span class="tag">&gt;</span><span class="pln">Enter your email address to get notified when site is ready</span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">  </span><span class="com">&lt;!-- Subscription form --&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"under-construction"</span><span class="pln"> </span><span class="atn">method</span><span class="pun">=</span><span class="atv">"post"</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;div&gt;&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"email"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"email"</span><span class="pln"> </span><span class="atn">required</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Insert your e-mail"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"join-us"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"Send"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-message"</span><span class="tag">&gt;&lt;/span&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;/form&gt;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">  </span><span class="com">&lt;!-- / Subscription form --&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+						</div>
+					</div>
+
+					<div class="col-md-12">	
+						<p>It is activated with the usage of this script. Code:</p>
+					</div>
+
+					<div class="code-wrapper">
+						<button class="copy-btn" id="copybtn-id">Copy</button>
+						<div class="code-block">
+							<pre class="copied"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'.join-us'</span><span class="pun">).</span><span class="pln">click</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span></li><li class="L1"><span class="pln">  </span><span class="kwd">var</span><span class="pln"> $this </span><span class="pun">=</span><span class="pln"> $</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">);</span></li><li class="L2"><span class="pln">  $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">submit</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span></li><li class="L3"><span class="pln">    e</span><span class="pun">.</span><span class="pln">preventDefault</span><span class="pun">();</span></li><li class="L4"><span class="pln">    $</span><span class="pun">.</span><span class="pln">ajax</span><span class="pun">({</span></li><li class="L5"><span class="pln">      url  </span><span class="pun">:</span><span class="pln"> </span><span class="str">'php/u-c.php'</span><span class="pun">,</span></li><li class="L6"><span class="pln">      type </span><span class="pun">:</span><span class="pln"> </span><span class="str">'POST'</span><span class="pun">,</span></li><li class="L7"><span class="pln">      data </span><span class="pun">:</span><span class="pln"> $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">serialize</span><span class="pun">(),</span></li><li class="L8"><span class="pln">      success </span><span class="pun">:</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">data</span><span class="pun">){</span></li><li class="L9"><span class="pln">        $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">find</span><span class="pun">(</span><span class="str">'.form-message'</span><span class="pun">).</span><span class="pln">html</span><span class="pun">(</span><span class="pln">data</span><span class="pun">).</span><span class="pln">animate</span><span class="pun">({</span><span class="pln">opacity</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1</span><span class="pun">},</span><span class="pln"> </span><span class="lit">500</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span></li><li class="L0"><span class="pln">          </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">$</span><span class="pun">(</span><span class="pln">data</span><span class="pun">).</span><span class="pln">is</span><span class="pun">(</span><span class="str">'.send-true'</span><span class="pun">)){</span></li><li class="L1"><span class="pln">            $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">trigger</span><span class="pun">(</span><span class="str">'reset'</span><span class="pun">);</span></li><li class="L2"><span class="pln">            $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">find</span><span class="pun">(</span><span class="str">'.form-message'</span><span class="pun">).</span><span class="pln">animate</span><span class="pun">({</span><span class="pln">opacity</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pun">},</span><span class="pln"> </span><span class="lit">1000</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span></li><li class="L3"><span class="pln">              $this</span><span class="pun">.</span><span class="pln">closest</span><span class="pun">(</span><span class="str">'.under-construction'</span><span class="pun">).</span><span class="pln">find</span><span class="pun">(</span><span class="str">'.form-message'</span><span class="pun">).</span><span class="pln">html</span><span class="pun">(</span><span class="str">''</span><span class="pun">);</span></li><li class="L4"><span class="pln">            </span><span class="pun">});</span></li><li class="L5"><span class="pln">          </span><span class="pun">}</span></li><li class="L6"><span class="pln">        </span><span class="pun">});</span></li><li class="L7"><span class="pln">      </span><span class="pun">}</span></li><li class="L8"><span class="pln">    </span><span class="pun">});</span></li><li class="L9"><span class="pln">  </span><span class="pun">});</span></li><li class="L0"><span class="pun">});</span></li></ol></pre>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="mailchimp">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>MailChimp Form</h4>
+							<p>In our theme the "MailChimp Service" is used. More information can be found <a href="http://mailchimp.com/">here</a>.</p>
+							<p>Using this service, you should create the "list" for mailing, generate the "form" and insert it into the site.</p>
+
+							<p>Example of the form:</p>
+							<div class="code-wrapper">
+								<button class="copy-btn" id="copybtn-id">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"notyfy-me border-gradient"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;h3&gt;</span><span class="pln">NOTIFY ME</span><span class="tag">&lt;/h3&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="pln">  </span><span class="com">&lt;!-- MailChimp --&gt;</span></li><li class="L4"><span class="pln">  </span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">action</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">method</span><span class="pun">=</span><span class="atv">"post"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"mc-embedded-subscribe-form"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"validate mailchimp"</span><span class="pln"> </span><span class="atn">target</span><span class="pun">=</span><span class="atv">"_blank"</span><span class="pln"> </span><span class="atn">novalidate</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mc_embed_signup_scroll"</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"mc-field-group"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">      </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"mce-EMAIL"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"notyfy-decr"</span><span class="tag">&gt;</span><span class="pln">Enter your email address to get notified when site is ready </span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"asterisk"</span><span class="tag">&gt;</span><span class="pln">*</span><span class="tag">&lt;/span&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;/label&gt;</span></li><li class="L1"><span class="pln">      </span><span class="tag">&lt;div&gt;</span></li><li class="L2"><span class="pln">        </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"email"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Insert your e-mail"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"EMAIL"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"required email"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mce-EMAIL"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mce-responses"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"clear"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"response"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mce-error-response"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">display</span><span class="pun">:</span><span class="pln">none</span><span class="atv">"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L7"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"response"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mce-success-response"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">display</span><span class="pun">:</span><span class="pln">none</span><span class="atv">"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">position</span><span class="pun">:</span><span class="pln"> absolute</span><span class="pun">;</span><span class="pln"> </span><span class="kwd">left</span><span class="pun">:</span><span class="pln"> </span><span class="pun">-</span><span class="lit">5000px</span><span class="pun">;</span><span class="atv">"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"b_69007f000c70b89e124b9308d_1225ba8aee"</span><span class="pln"> </span><span class="atn">tabindex</span><span class="pun">=</span><span class="atv">"-1"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn clear"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"Subscribe"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"subscribe"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"mc-embedded-subscribe"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/form&gt;</span></li><li class="L7"><span class="pln">&nbsp;</span></li><li class="L8"><span class="pln">  </span><span class="com">&lt;!-- / MailChimp --&gt;</span></li><li class="L9"><span class="pln">&nbsp;</span></li><li class="L0"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+								</div>
+							</div>
+
+							<p>Also change the <code>URL</code> in the script. URL is generated in the previous form, in <code>action</code>:</p>
+							<div class="code-wrapper">
+								<button class="copy-btn" id="copybtn-id">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="kwd">if</span><span class="pun">(</span><span class="pln">$</span><span class="pun">(</span><span class="str">".mailchimp"</span><span class="pun">).</span><span class="pln">length</span><span class="pun">&gt;</span><span class="lit">0</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span></li><li class="L1"><span class="pln">  $</span><span class="pun">(</span><span class="str">'.mailchimp'</span><span class="pun">).</span><span class="pln">ajaxChimp</span><span class="pun">({</span></li><li class="L2"><span class="pln">    url</span><span class="pun">:</span><span class="pln"> </span><span class="str">'http://us10.list-manage.com/subscribe/post?u=69007f000c70b89e124b9308d&amp;id=1225ba8aee'</span></li><li class="L3"><span class="pln">  </span><span class="pun">});</span></li><li class="L4"><span class="pun">}</span></li></ol></pre>
+								</div>
+							</div>
+
+
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Block Portfolio</h4>
+						<p>HTML Code:</p>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="frame-window">
+								<img class="img-responsive" src="content/portf.png"  alt="image">
+							</div>
+							<!--  -->
+							<div class="code-wrapper">
+								<button class="copy-btn" id="copybtn-id">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="pun">&lt;</span><span class="pln">h3</span><span class="pun">&gt;</span><span class="typ">Portfolio</span><span class="pun">&lt;/</span><span class="pln">h3</span><span class="pun">&gt;</span></li><li class="L1"><span class="pun">&lt;</span><span class="pln">hr</span><span class="pun">&gt;</span></li><li class="L2"><span class="pun">&lt;</span><span class="pln">div id</span><span class="pun">=</span><span class="str">"portfolio"</span><span class="pln"> </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"owl-carousel noSwipe"</span><span class="pun">&gt;</span></li><li class="L3"><span class="pln">  </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portf-col"</span><span class="pun">&gt;</span></li><li class="L4"><span class="pln">    </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-block"</span><span class="pun">&gt;</span></li><li class="L5"><span class="pln">      </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-block-in"</span><span class="pun">&gt;</span></li><li class="L6"><span class="pln">        </span><span class="pun">&lt;</span><span class="pln">img src</span><span class="pun">=</span><span class="str">"content/portfolio/first.jpg"</span><span class="pln"> alt</span><span class="pun">=</span><span class="str">""</span><span class="pun">&gt;</span></li><li class="L7"><span class="pln">        </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-info"</span><span class="pun">&gt;</span></li><li class="L8"><span class="pln">          </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-info-content"</span><span class="pun">&gt;</span></li><li class="L9"><span class="pln">            </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-info-title"</span><span class="pun">&gt;</span></li><li class="L0"><span class="pln">              </span><span class="pun">&lt;</span><span class="pln">strong</span><span class="pun">&gt;</span><span class="typ">Some</span><span class="pln"> item name</span><span class="pun">&lt;/</span><span class="pln">strong</span><span class="pun">&gt;</span></li><li class="L1"><span class="pln">              </span><span class="pun">&lt;</span><span class="pln">br</span><span class="pun">&gt;</span><span class="typ">The</span><span class="pln"> line of text</span></li><li class="L2"><span class="pln">            </span><span class="pun">&lt;</span><span class="str">/div&gt;&lt;!-- /</span><span class="pln">portfolio</span><span class="pun">-</span><span class="pln">info</span><span class="pun">-</span><span class="pln">title </span><span class="pun">--&gt;</span></li><li class="L3"><span class="pln">            </span><span class="pun">&lt;</span><span class="pln">div </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"portfolio-info-social"</span><span class="pun">&gt;</span></li><li class="L4"><span class="pln">              </span><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"#"</span><span class="pun">&gt;</span></li><li class="L5"><span class="pln">                </span><span class="pun">&lt;</span><span class="pln">i </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"fa fa-pinterest"</span><span class="pun">&gt;&lt;/</span><span class="pln">i</span><span class="pun">&gt;</span></li><li class="L6"><span class="pln">              </span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></li><li class="L7"><span class="pln">              </span><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"#"</span><span class="pun">&gt;</span></li><li class="L8"><span class="pln">                </span><span class="pun">&lt;</span><span class="pln">i </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"fa fa-twitter"</span><span class="pun">&gt;&lt;/</span><span class="pln">i</span><span class="pun">&gt;</span></li><li class="L9"><span class="pln">              </span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></li><li class="L0"><span class="pln">              </span><span class="pun">&lt;</span><span class="pln">a href</span><span class="pun">=</span><span class="str">"#"</span><span class="pun">&gt;</span></li><li class="L1"><span class="pln">                </span><span class="pun">&lt;</span><span class="pln">i </span><span class="kwd">class</span><span class="pun">=</span><span class="str">"fa fa-thumbs-o-up"</span><span class="pun">&gt;&lt;/</span><span class="pln">i</span><span class="pun">&gt;</span></li><li class="L2"><span class="pln">              </span><span class="pun">&lt;/</span><span class="pln">a</span><span class="pun">&gt;</span></li><li class="L3"><span class="pln">            </span><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li><li class="L4"><span class="pln">          </span><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li><li class="L5"><span class="pln">        </span><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li><li class="L6"><span class="pln">      </span><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li><li class="L7"><span class="pln">    </span><span class="pun">&lt;</span><span class="str">/div&gt;&lt;!-- /</span><span class="pln">portfolio</span><span class="pun">-</span><span class="pln">block </span><span class="pun">--&gt;</span></li><li class="L8"><span class="pln">  </span><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li><li class="L9"><span class="pun">&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span></li></ol></pre>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="about-app">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>About App</h4>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="frame-window">
+								<img class="img-responsive" src="content/app.png" width="976" height="auto" alt="image">
+							</div>
+							<!--  -->
+							<div class="code-wrapper">
+								<button class="copy-btn">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sections"</span><span class="pln"> </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"About app"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"section-content"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"section-wrap"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"about-app"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">          </span></li><li class="L7"><span class="pln">            </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 text-center"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="pln">              </span><span class="tag">&lt;h3&gt;</span><span class="pln">About app</span><span class="tag">&lt;/h3&gt;</span></li><li class="L0"><span class="pln">              </span></li><li class="L1"><span class="pln">              </span><span class="tag">&lt;hr&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="pln">              </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">&nbsp;</span></li><li class="L5"><span class="pln">                </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"app-content-wrap border-gradient-visible-xs text-left text-center-xs"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="pln">                  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"app-content"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">                    </span></li><li class="L9"><span class="pln">                    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">                      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"app-description border-gradient border-gradient-hidden-xs"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="pln">                        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">                          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 col-sm-3 app-image text-center-xs"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">                            </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"img/square.png"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">                          </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">&nbsp;</span></li><li class="L8"><span class="pln">                          </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 col-sm-9 app-text"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">                            </span><span class="tag">&lt;h6&gt;</span><span class="pln">Enjoy new app!</span><span class="tag">&lt;/h6&gt;</span></li><li class="L0"><span class="pln">                            An awesome mobile APP for your smartphone. Our designers and developers made a piece of art for you to enjoy your phone functioning. Just have a look!</span></li><li class="L1"><span class="pln">                          </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="pln">                        </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">&nbsp;</span></li><li class="L5"><span class="pln">                      </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">                    </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">                    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 col-sm-5 text-right text-center-xs"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">                      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"play-video"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">                        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"play-btn"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L0"><span class="pln">                        Play a demo</span></li><li class="L1"><span class="pln">                      </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">                    </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /col --&gt;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">                  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /app-content --&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="pln">                </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /app-content-wrap --&gt;</span></li><li class="L7"><span class="pln">&nbsp;</span></li><li class="L8"><span class="pln">                </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-12 col-sm-7 text-left text-center-xs"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">                  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"app-purchase"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">                    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"purchase"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">                      purchase</span></li><li class="L2"><span class="pln">                    </span><span class="tag">&lt;/span&gt;</span></li><li class="L3"><span class="pln">                    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">                      </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-apple"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L5"><span class="pln">                    </span><span class="tag">&lt;/a&gt;</span></li><li class="L6"><span class="pln">                    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">                      </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-android"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L8"><span class="pln">                    </span><span class="tag">&lt;/a&gt;</span></li><li class="L9"><span class="pln">                    </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">                      </span><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-windows"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L1"><span class="pln">                    </span><span class="tag">&lt;/a&gt;</span></li><li class="L2"><span class="pln">                  </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln">                </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">                </span></li><li class="L5"><span class="pln">              </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="pln">            </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /col-xs-12 --&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="pln">          </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /about-app --&gt;</span></li><li class="L0"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /row --&gt;</span></li><li class="L1"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /container --&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /section-wrap --&gt;</span></li><li class="L4"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /section-content --&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="tag">&lt;/div&gt;</span></li></ol></pre>  
+																
+								</div>
+							</div>	
+						</div>
+						<!--  -->
+
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="caroufredsel">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Carousel Services</h4>
+						<!--  -->
+						<div class="block-code-screen">				
+							<div class="frame-window">
+								<img class="img-responsive" src="content/serv.png" width="976" height="593" alt="image">
+							</div>
+							<div class="code-wrapper">
+								<button class="copy-btn">Copy</button>
+								<div class="code-block">
+									<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"business-about"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"carousell-fx owl-carousel noSwipe"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"about-us"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"border-gradient about-us-item"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/icons/cut.svg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text"</span><span class="tag">&gt;</span><span class="pln">we create</span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"about-us"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"border-gradient about-us-item"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/icons/perform.svg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text"</span><span class="tag">&gt;</span><span class="pln">we perform</span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"about-us"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"border-gradient about-us-item"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/icons/produse.svg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text"</span><span class="tag">&gt;</span><span class="pln">we develop</span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L8"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L9"><span class="pln">&nbsp;</span></li><li class="L0"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"about-us"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"border-gradient about-us-item"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/icons/produse.svg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text"</span><span class="tag">&gt;</span><span class="pln">we produce</span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="tag">&lt;/div&gt;</span></li></ol></pre>						
+								</div>
+							</div>	
+						</div>						
+						<!--  -->
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		
+		<article class="article-block" id="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Team Carousel</h4>
+					</div>
+					<!--  -->
+					<div class="block-code-screen">				
+						<div class="frame-window">
+							<img class="img-responsive" src="content/team.png" width="976" height="593" alt="image">
+						</div>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"business-team"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"carousell-fx owl-carousel noSwipe"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-item"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/team/first.jpg"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-responsive"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-info"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">          Daniel Ramacey</span></li><li class="L7"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L8"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"post"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">          PHP guru</span></li><li class="L0"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /team --&gt;</span></li><li class="L4"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-item"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/team/second.jpg"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-responsive"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L7"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-info"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">          Amanda Hoffman</span></li><li class="L0"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"post"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">          Creative director</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /team --&gt;</span></li><li class="L7"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-item"</span><span class="tag">&gt;</span></li><li class="L9"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/team/third.jpg"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-responsive"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-info"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">          Richard Crowford</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"post"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">          Entrepreneur</span></li><li class="L6"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L9"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /team --&gt;</span></li><li class="L0"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-item"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">      </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"content/team/first.jpg"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-responsive"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"team-info"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">          Andrew Collins</span></li><li class="L6"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"post"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln">          Designer</span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;/div&gt;</span></li><li class="L0"><span class="pln">      </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /team --&gt;</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Progress Bar</h4>
+					</div>
+					<!--  -->
+					<div class="block-code-screen">				
+						<div class="frame-window">
+							<img class="img-responsive" src="content/small.png" width="976" height="593" alt="image">
+						</div>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"progress-skill"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-6 text-right pr0"</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;canvas</span></li><li class="L4"><span class="pln">        </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"circle-skill"</span></li><li class="L5"><span class="pln">        </span><span class="atn">data-color</span><span class="pun">=</span><span class="atv">"#6767ea"</span></li><li class="L6"><span class="pln">        </span><span class="atn">data-line-size</span><span class="pun">=</span><span class="atv">"5"</span></li><li class="L7"><span class="pln">        </span><span class="atn">data-empty-color</span><span class="pun">=</span><span class="atv">"#fff"</span></li><li class="L8"><span class="pln">        </span><span class="atn">data-percent</span><span class="pun">=</span><span class="atv">"93"</span></li><li class="L9"><span class="pln">        </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"PS"</span></li><li class="L0"><span class="pln">        </span><span class="atn">data-point-hide</span><span class="pun">=</span><span class="atv">"true"</span></li><li class="L1"><span class="pln">        </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"100"</span></li><li class="L2"><span class="pln">        </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"100"</span><span class="tag">&gt;&lt;/canvas&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;canvas</span></li><li class="L4"><span class="pln">        </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"circle-skill"</span></li><li class="L5"><span class="pln">        </span><span class="atn">data-color</span><span class="pun">=</span><span class="atv">"#00ffff"</span></li><li class="L6"><span class="pln">        </span><span class="atn">data-line-size</span><span class="pun">=</span><span class="atv">"5"</span></li><li class="L7"><span class="pln">        </span><span class="atn">data-empty-color</span><span class="pun">=</span><span class="atv">"#fff"</span></li><li class="L8"><span class="pln">        </span><span class="atn">data-percent</span><span class="pun">=</span><span class="atv">"75"</span></li><li class="L9"><span class="pln">        </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"Sketch"</span></li><li class="L0"><span class="pln">        </span><span class="atn">data-point-hide</span><span class="pun">=</span><span class="atv">"true"</span></li><li class="L1"><span class="pln">        </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"100"</span></li><li class="L2"><span class="pln">        </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"100"</span><span class="tag">&gt;&lt;/canvas&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /col --&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col-xs-6 text-left pl0"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">      </span><span class="tag">&lt;canvas</span></li><li class="L6"><span class="pln">        </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"circle-skill"</span></li><li class="L7"><span class="pln">        </span><span class="atn">data-color</span><span class="pun">=</span><span class="atv">"#ffb527"</span></li><li class="L8"><span class="pln">        </span><span class="atn">data-line-size</span><span class="pun">=</span><span class="atv">"5"</span></li><li class="L9"><span class="pln">        </span><span class="atn">data-empty-color</span><span class="pun">=</span><span class="atv">"#fff"</span></li><li class="L0"><span class="pln">        </span><span class="atn">data-percent</span><span class="pun">=</span><span class="atv">"93"</span></li><li class="L1"><span class="pln">        </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"AI"</span></li><li class="L2"><span class="pln">        </span><span class="atn">data-point-hide</span><span class="pun">=</span><span class="atv">"true"</span></li><li class="L3"><span class="pln">        </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"100"</span></li><li class="L4"><span class="pln">        </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"100"</span><span class="tag">&gt;&lt;/canvas&gt;</span></li><li class="L5"><span class="pln">      </span><span class="tag">&lt;canvas</span></li><li class="L6"><span class="pln">        </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"circle-skill"</span></li><li class="L7"><span class="pln">        </span><span class="atn">data-color</span><span class="pun">=</span><span class="atv">"#ff3333"</span></li><li class="L8"><span class="pln">        </span><span class="atn">data-line-size</span><span class="pun">=</span><span class="atv">"5"</span></li><li class="L9"><span class="pln">        </span><span class="atn">data-empty-color</span><span class="pun">=</span><span class="atv">"#fff"</span></li><li class="L0"><span class="pln">        </span><span class="atn">data-percent</span><span class="pun">=</span><span class="atv">"90"</span></li><li class="L1"><span class="pln">        </span><span class="atn">data-title</span><span class="pun">=</span><span class="atv">"WP"</span></li><li class="L2"><span class="pln">        </span><span class="atn">data-point-hide</span><span class="pun">=</span><span class="atv">"true"</span></li><li class="L3"><span class="pln">        </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"100"</span></li><li class="L4"><span class="pln">        </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"100"</span><span class="tag">&gt;&lt;/canvas&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/div&gt;</span><span class="com">&lt;!-- /col --&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="backgrounds">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Backgrounds</h2>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="default">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Default Background</h4>
+						<p>Default Background is a pattern, to use it, put the class <code>.pattern</code> in the <code>body</code></p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pattern"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="stars">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Stars Background</h4>
+						<p>To choose the Stars Background, put the div with the class <code>space</code> just after the tag <code>body</code></p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pattern"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"space"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L2"><span class="pln">  ...</span></li><li class="L3"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="video">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4> Video Background</h4>
+						<p>Video Background effect doesn't work on tablets and phones. To choose it, put the div with the class <code>video-background</code> just after the tag <code>body</code></p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pattern"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"video-background"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;video</span><span class="pln"> </span><span class="atn">autoplay</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">muted</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">loop</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li><li class="L3"><span class="pln">      </span><span class="tag">&lt;source</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"video/video.mp4"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"video/mp4"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">      </span><span class="tag">&lt;source</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"video/video.webm"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"video/webm"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/video&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln">  ...</span></li><li class="L8"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="image">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Image Background</h4>
+						<p>To use Image Background, apply this value to the  <code>body</code></p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pattern-t"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">background</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">url</span><span class="pun">(</span><span class="str">content/pic_bg.jpg</span><span class="pun">)</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="pun">/</span><span class="pln"> cover no-repeat fixed</span><span class="atv">"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="gliched">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Gliched Background</h4>
+						<p>To get the glitch image, use the service <a href="http://snorpey.github.io/jpg-glitch/">http://snorpey.github.io/jpg-glitch/</a>. The result you will get must be put just as usual background.</p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pattern-t"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">background</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">url</span><span class="pun">(</span><span class="str">content/glitched_static.jpg</span><span class="pun">)</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="pun">/</span><span class="pln"> cover no-repeat fixed</span><span class="pun">;</span><span class="atv">"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h4>Overlay Background</h4>
+						<p></p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"image-colored"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">background</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">url</span><span class="pun">(</span><span class="str">content/colored_bg.jpg</span><span class="pun">)</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="lit">50%</span><span class="pln"> </span><span class="pun">/</span><span class="pln"> cover no-repeat fixed</span><span class="pun">;</span><span class="atv">"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+		<article class="article-block" id="retina">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>Retina</h2>
+						<p>Retina Ready is a feature for displaying the high resolution images on the modern devices. It is created to show the true view of the HD images.</p>
+						<p>In our theme to enable the Retina for images you should have two images:</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<ul>
+							<li>first one has the standard size and a standard name (<code>slide-2.jpg</code>)</li>
+							<li>second one must be <b>twice</b> bigger then the origin and have additional annex <i>@2x</i> (<code>slide-2@2x.jpg</code> </li>
+							</ul>
+						</div>
+						<p>Both images must be in the same folder!</p>
+						<p>So, how we can enable it in our html template? You should insert a class <code>replace-2x</code> into the 'img' tag. Example:</p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"replace-2x"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"images/slide-2.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span></li></ol></pre>
+							</div>
+						</div>
+						<p>This is an example of CSS code that displays how we can connect our Retina image to the original image of the background:</p>
+						<div class="code-wrapper">
+							<button class="copy-btn" id="copybtn-id">Copy</button>
+							<div class="code-block">
+								<pre class="copied"><ol class="linenums"><li class="L0"><span class="pun">.</span><span class="pln">part-2 </span><span class="pun">{</span></li><li class="L1"><span class="pln">  background</span><span class="pun">-</span><span class="pln">image</span><span class="pun">:</span><span class="pln"> url</span><span class="pun">(</span><span class="str">'../images/slider/slide-2.jpg'</span><span class="pun">);</span></li><li class="L2"><span class="pun">}</span></li><li class="L3"><span class="lit">@media</span><span class="pln"> </span><span class="pun">(-</span><span class="pln">webkit</span><span class="pun">-</span><span class="pln">min</span><span class="pun">-</span><span class="pln">device</span><span class="pun">-</span><span class="pln">pixel</span><span class="pun">-</span><span class="pln">ratio</span><span class="pun">:</span><span class="pln"> </span><span class="lit">2</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span></li><li class="L4"><span class="pln">  </span><span class="pun">.</span><span class="pln">part-2 </span><span class="pun">{</span><span class="pln"> background</span><span class="pun">-</span><span class="pln">image</span><span class="pun">:</span><span class="pln"> url</span><span class="pun">(</span><span class="str">'../images/slider/slide-2@2x.jpg'</span><span class="pun">);</span><span class="pln"> </span></li><li class="L5"><span class="pln">  background</span><span class="pun">-</span><span class="pln">size</span><span class="pun">:</span><span class="pln"> cover</span><span class="pun">;</span><span class="pln"> </span><span class="pun">}</span></li><li class="L6"><span class="pun">}</span></li></ol></pre>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="scss">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>"SCSS"</h2>
+							<p>
+							All SCSS files are located in the folder /sass/. SCSS is a CSS preprocessor that adds many features like variables, mixins, imports, color manipulation, functions and tons of other powerful features.
+						</p>
+						<p>
+							The entire compiler comes in a single class file ready for including in any kind of project in addition to a command line tool for running the compiler from the terminal.
+						</p>
+						<p>
+							The configuration of the paths for compilation is located in the file <i>config.rb</i>. The structure:
+						</p>
+						<ul>
+							<li>/bootstrap/ - folder with bootstrap variables</li>
+							<li>bootstrap.scss - file that imports all variables from all files</li>
+							<li>style.scss - imports all styles</li>
+							<li>typography.scss - the customization of fonts</li>
+							<li>_main.scss - styles for responsive</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="css-files">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>"CSS Files"</h2>
+							<div class="table-responsive">
+								<table class="table table-bordered table-hover align-left">
+									<tbody>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Location</th>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a>
+											</td>
+											<td>
+												Styles for Font Awesome
+											</td>
+											<td>
+												css/font-awesome.min.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+											</td>
+											<td>
+												Defines main Bootstrap classes
+											</td>
+											<td>
+												css/bootstrap.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://owlgraphic.com/owlcarousel/" target="_blank">OWL Carousel</a>
+											</td>
+											<td>
+												OWL Carousel css 
+											</td>
+											<td>
+												css/owl.carousel.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/alvarotrigo/fullPage.js" target="_blank">fullPage css</a>
+											</td>
+											<td>
+												jquery.fullPage.css
+											</td>
+											<td>
+												css/jquery.fullPage.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/malihu/malihu-custom-scrollbar-plugin" target="_blank">Scrollbar</a>
+											</td>
+											<td>
+												Highly customizable custom scrollbar jQuery plugin
+											</td>
+											<td>
+												css/jquery.mCustomScrollbar.min.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Glitch Countdown
+											</td>
+											<td>
+												Glitch Style for Countdown
+											</td>
+											<td>
+												css/glitch.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Theme styles
+											</td>
+											<td>
+												Contains all of the specific stylings for the theme.
+											</td>
+											<td>
+												css/style.css
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Файл Типографії
+											</td>
+											<td>
+												Styles for Intro Page
+											</td>
+											<td>
+												css/typography.css
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<article class="article-block" id="js-files">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<h2>"JavaScript Files"</h2>
+							<div class="table-responsive">
+								<table class="table table-bordered table-hover align-left">
+									<tbody>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Location</th>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+											</td>
+											<td>
+												Sleek, intuitive, and powerful front-end framework for faster and easier web development
+											</td>
+											<td>
+												js/bootstrap.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" target="_blank">jQuery</a>
+											</td>
+											<td>
+												Core Javascript library
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://labs.rampinteractive.co.uk/touchSwipe/demos/" target="_blank">jQuery Touch swipe Plugin</a>
+											</td>
+											<td>
+												A jquery plugin to be used on touch devices such as iPad, iPhone, android etc
+											</td>
+											<td>
+												js/jquery.touchSwipe.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="http://mailchimp.com/" target="_blank">MailChimp</a>
+											</td>
+											<td>
+												MailChimp helps you email the right people at the right time.
+											</td>
+											<td>
+												js/jquery.ajaxchimp.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/mathiasbynens/jquery-placeholder" target="_blank">jQuery Placeholder</a>
+											</td>
+											<td>
+												HTML5 Placeholder jQuery Plugin for old browser
+											</td>
+											<td>
+												js/jquery.placeholder.min.js
+										</tr>
+
+										<tr>
+											<td>
+												<a href="http://owlgraphic.com/owlcarousel/" target="_blank">OWL Carousel</a>
+											</td>
+											<td>
+												Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.
+											</td>
+											<td>
+												js/owl.carousel.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/alvarotrigo/fullPage.js" target="_blank">fullPage</a>
+											</td>
+											<td>
+												A simple and easy to use plugin to create fullscreen scrolling websites 
+											</td>
+											<td>
+												js/jquery.fullPage.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/malihu/malihu-custom-scrollbar-plugin" target="_blank">Scrollbar</a>
+											</td>
+											<td>
+												Highly customizable custom scrollbar jQuery plugin
+											</td>
+											<td>
+												js/jquery.mCustomScrollbar.concat.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/protonet/jquery.inview" target="_blank">inview</a>
+											</td>
+											<td>
+												Event that is fired as soon as an element appears in the user’s viewport.
+											</td>
+											<td>
+												js/jquery.inview.min.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="https://github.com/hilios/jQuery.countdown" target="_blank">jQuery.countdown</a>
+											</td>
+											<td>
+												A simple and html agnostic date countdown plugin for jQuery
+											</td>
+											<td>
+												js/jquery.countdown.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Google Map
+											</td>
+											<td>
+												Google Map initialization
+											</td>
+											<td>
+												js/googlemap.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Easy-Circle-Skill
+											</td>
+											<td>
+												Handmade plugin for styling scroll-bar
+											</td>
+											<td>
+												js/jquery.circleSkills.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Swiper
+											</td>
+											<td>
+												Swiper plugin for mobile swipe page
+											</td>
+											<td>
+												js/jquery.swiper.js
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Theme scripts
+											</td>
+											<td>
+												Contains all of the specific scripts for the theme.
+											</td>
+											<td>
+												js/main.js
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+			<hr class="full-width-line">
+		</article>
+
+		<!-- template -->
+	</div>
+  <!-- FOOTER -->
+	<footer class="footer marginLeft">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 col-sm-6">
+					<p>Copyright © ItemBridge  inc., 2015 <span>Horn Theme </span>on Themeforest</p>
+				</div>
+				<div class="col-md-6 col-xs-12 col-sm-6">
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="https://dribbble.com/itembridge" class="fa fa-dribbble"></a>
+					<a href="https://www.behance.net/itembridge" class="fa fa-behance"></a>
+					<a href="https://plus.google.com/+Itembridge" class="fa fa-google-plus"></a>
+					<a href="https://twitter.com/Itembridge" class="fa fa-twitter"></a>
+					<a href="https://www.facebook.com/ItemBridge" class="fa fa-facebook"></a>				
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="alert-msg">
+		<p>Code copied to clipboard</p>
+	</div>
+	<!--js-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/ZeroClipboard.min.js"></script>
+	<script src="js/bootstrap.scrollspy.min.js"></script>
+	<script src="js/jquery.scrollbar.min.js" type="text/javascript" ></script>
+	<script src="js/jquery.selectbox.min.js" type="text/javascript"></script>
+	<script src="js/main.js"></script>
+	<script src="js/small-icons.js"></script>
+	<!-- ssi js-->
+	</body>
+</html>
