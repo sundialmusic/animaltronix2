@@ -5,3 +5,48 @@ img.logo {
     height: 450px; 
 }
 
+body {
+    border-width: 0px;
+}
+
+#wrapper:before {
+  background: #000;
+  width: 0px;
+}
+
+#wrapper:after {
+  background: #000;
+  width: 0px;
+}
+
+@media (max-width: 415px) {
+    img.logo {
+    height: 280px;
+    width: 314px;
+    }
+  }
+
+/*
+@media (max-width: 480px) {
+    img.logo {
+    height: 280px;
+    width: 314px;
+    }
+  }
+*/
+
+
+
+@media (min-width: 768px) {
+    img.logo {
+    }
+  }
+
+@media (min-width: 992px) {
+
+  }
+
+@media (min-width: 1200px) {
+
+
+  }
