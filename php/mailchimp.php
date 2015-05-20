@@ -1,9 +1,9 @@
 <?php
   include 'MailChimp.php';
 
-  $MailChimp = new Drewm\MailChimp('ffb9255ac645dbfef9ccd77f97aa3ea9-us10');
+  $MailChimp = new Drewm\MailChimp('ffb9255ac645dbfef9ccd77f97aa3ea9-us10');  
   $result = $MailChimp->call('lists/subscribe', array(
-	'id'                => '1225ba8aee',
+	'id'                => '75a4c59551',
 	'email'             => array( 'email' => $_POST['email'] ),
 	'merge_vars'        => array( 'email' => $_POST['email'] ),
 	'double_optin'      => false,
