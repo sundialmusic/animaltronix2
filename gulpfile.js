@@ -28,12 +28,15 @@ gulp.task('copy', function() {
 
   return gulp.src([
       '**/*',
-      '!sass/**/*',
-      // '!css/**/*.css',
+      '!scss/**/*',
       '!dist/**/*',
       '!node_modules/**/*',
       '!gulpfile.js',
       '!package.json',
+      '!template-files/**/*',
+      '!Documentation/**/*',
+      '!content/**/*',
+      '!unused-img/**/*',
       '!.*'
     ])
     .pipe(gulp.dest('dist'));
