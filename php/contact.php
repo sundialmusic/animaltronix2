@@ -1,5 +1,5 @@
 <?php
-$to = 'sundialmusic@gmail.com';
+$to = 'mail-bot@animaltronix.com';
 $subject = 'You subject';
 $headers = 'From: (Animaltronix.com)' . "\r\n" . 'Content-type: text/html; charset=utf-8';
 $message = '

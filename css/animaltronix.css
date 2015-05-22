@@ -67,16 +67,22 @@ body {
   width: 0px;
 }
 
+.video-embed {
+    width: 700px; 
+    height: 394px;
+    margin: 0 auto;
+}
+
 @media (max-width: 415px) {
     img.logo {
     height: 280px;
     width: 314px;
     }
-/*
-    .robot-girl {
-        visibility: hidden;
+    .video-embed {
+        width: 320px;
+        height: 180px; 
     }
-*/
+    
   }
 
 @media (max-width: 767px) {
